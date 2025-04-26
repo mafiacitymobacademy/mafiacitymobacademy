@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mafia City Mob Academy</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .coming-soon {
+            margin-top: 50px;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .motorcycle {
+            margin-top: 30px;
+            width: 100px;
+            height: 100px;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Emojione_1F3CD.svg/1024px-Emojione_1F3CD.svg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            animation: ride 5s linear infinite;
+        }
+        @keyframes ride {
+            0% {
+                left: -120px;
+            }
+            100% {
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img1.png" alt="Mafia City Mob Academy">
+    </header>
+    <main>
+        <div class="coming-soon">More Coming Soon...</div>
+        <div class="motorcycle"></div>
+    </main>
+</body>
+</html>
